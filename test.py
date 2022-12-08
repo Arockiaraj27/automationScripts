@@ -6,7 +6,7 @@ driver.get("https://www.flipkart.com/")
 driver.maximize_window()
 browser=driver.find_element_by_xpath('/html/body/div[2]/div/div/button')
 browser.click()
-
+print('Okay')
 # web_element=driver.find_element_by_link_text("LOGIN")
 # web_element.click()
 # search=driver.find_element_by_name("firstname")
