@@ -19,4 +19,6 @@ import time
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://www.google.com/")
 driver.maximize_window()
-time.sleep(5)
+driver.sleep(10)
+m = driver.find_element_by_name("q")
+m.send_keys("Welcome")
